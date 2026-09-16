@@ -7,3 +7,16 @@
     uvx --from git+https://github.com/TerryHank/fireworks-graph-mcp.git fireworks-graph-mcp
 
 仓库不包含任何凭据。
+
+## ModelScope 配置
+
+```json
+{
+  "mcpServers": {
+    "fireworks": {
+      "command": "uvx",
+      "args": ["--from", "git+https://github.com/TerryHank/fireworks-graph-mcp.git", "fireworks-graph-mcp"]
+    }
+  }
+}
+```
